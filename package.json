@@ -15,6 +15,7 @@
     "@babel/core": "^7.13.10",
     "@babel/plugin-transform-runtime": "^7.18.10",
     "@babel/preset-env": "^7.13.10",
+    "@capacitor/cli": "^4.1.0",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^8.0.0",
     "css-loader": "^5.1.1",
@@ -26,6 +27,9 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@capacitor/android": "^4.1.0",
+    "@capacitor/core": "^4.1.0",
+    "@capacitor/ios": "^4.1.0",
     "phaser": "^3.53.1"
   }
 }

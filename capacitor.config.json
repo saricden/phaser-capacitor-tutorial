@@ -1,0 +1,6 @@
+{
+  "appId": "com.saricden.tutorial01",
+  "appName": "Tutorial Game",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
