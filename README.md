@@ -1,35 +1,39 @@
-# Phaser 3 ES6 Boilerplate
+# PhaserJS + Capacitor Tutorial Project
 
-Hi there 👋
+Hey there 👋
 
-This is a quick and dirty boilerplate to bootstrap Phaser 3 games. It comes complete with:
+This repo contains the project files to go along with the article I wrote on creating PhaserJS games which run as native Android and/or iOS apps, here:
 
-  - ✅ ES6 syntax support (classes, fat arrow functions, spread operator, etc.)
-  - ✅ `async`/`await` support
-  - ✅ Local dev server & dev / production build scripts
+https://saricden.com/articles/port-phaserjs-games-to-native-android-ios-apps-using-capacitorjs
 
-## Usage
+## Setup
 
-To bootstrap a project using this boilerplate, click the "Use this template" button on GitHub.
-
-Once you've got it locally, first run:
+First install dependencies:
 
 ```
 npm install
 ```
 
-To install project dependencies (PhaserJS is the only non-dev dependency!).
-
-After that, to run a local dev server use:
-
-```
-npm run start
-```
-
-To create a production build (it will be put in a folder called "dist/"), run:
+Then, build the project:
 
 ```
 npm run build
 ```
 
-If you'd like to see anything else added to this project, feel free to open an issue! 😇
+Next, sync the build with native project folders:
+
+```
+npx cap sync
+```
+
+Finally, open it in the native editor of your choice and proceed:
+
+```
+npx cap open android
+```
+
+Or
+
+```
+npx cap open ios
+```
